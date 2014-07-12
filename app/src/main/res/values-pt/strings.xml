@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contente</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="users_name_edit_text">Teu nome!</string>
+    <string name="happy_question">Estás feliz?</string>
+    <string name="anwser_yes_button">SIM</string>
+    <string name="anwser_no_button">NÃO</string>
+
+</resources>

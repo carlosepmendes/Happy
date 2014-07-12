@@ -4,5 +4,9 @@
     <string name="app_name">Happy</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="users_name_edit_text">Type your name!</string>
+    <string name="happy_question">Are you Happy?</string>
+    <string name="anwser_yes_button">YES</string>
+    <string name="anwser_no_button">NO</string>
 
 </resources>
