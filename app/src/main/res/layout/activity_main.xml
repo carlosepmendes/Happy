@@ -7,20 +7,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="horizontal"
+    android:gravity="center|top"
     tools:context=".MainActivity">
 
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bye bro"/>
+        android:text="Bye bro"
+        android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="More text bra"/>
+        android:text="More text bra"
+        android:layout_weight="1"/>
 </LinearLayout>
