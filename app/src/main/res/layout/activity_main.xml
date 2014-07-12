@@ -16,6 +16,7 @@
         android:text="@string/happy_question"
         android:textSize="20sp"/>
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,15 +27,20 @@
             android:layout_height="wrap_content"
             android:text="@string/anwser_yes_button"
             android:hint="Pick me!"
-            android:onClick="onYesButtonClick"/>
+            android:onClick="onYesButtonClick"
+            android:id="@+id/answer_yes_button"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/anwser_no_button"
-            android:hint="Noes me!"/>
+            android:hint="Noes me!"
+            android:onClick="onNoButtonClick"
+            android:id="@+id/answer_no_button"/>
     </LinearLayout>
-        <LinearLayout
+
+
+    <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -43,8 +49,9 @@
                 android:layout_width="200dp"
                 android:layout_height="50dp"
                 android:inputType="textPersonName"
-                android:hint="@string/users_name_edit_text"/>
-            </LinearLayout>
+                android:hint="@string/users_name_edit_text"
+                android:id="@+id/users_name_edit_text"/>
+     </LinearLayout>
 
 
 
